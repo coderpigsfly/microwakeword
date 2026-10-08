@@ -1,4 +1,4 @@
-# MicroWakeWord
+# MicroWakeWord Musings
 
 A lightweight repository for experimenting with and building a small wake-word detection pipeline for edge devices and resource-constrained environments.
 
