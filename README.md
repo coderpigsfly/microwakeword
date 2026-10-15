@@ -10,7 +10,7 @@ This project is a personal endeavor for my devices if it can be of use to someon
     - Super Efficient. Runs on Kaggle.
     - Notes are in the Book, however you probably just want to change the Wake Word & Variants.
     - Parameters are optimized for a mid noise level wake with variants around the name.
-    - A few clever math tricks to create a professional level model with reduced times.
+    - A few clever math tricks to create a professional level model with reduced times on the free Kaggle Tier.
     - It loads its own needed python environment to avoid patching.
     - Run it with Internet ON and T4 settings.
     - This started from many notebooks I encountered on the internet.
