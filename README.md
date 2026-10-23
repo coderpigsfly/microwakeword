@@ -10,6 +10,9 @@ This project is a personal endeavor for my devices if it can be of use to someon
     - Super Efficient. Runs on Kaggle.
     - Notes are in the Book, however you probably just want to change the Wake Word & Variants.
     - Parameters are optimized for a mid noise level wake with variants around the name.
+    - Built for noisy rooms: sound-alike words and the assistant's own voice as negatives, many blended
+      LibriTTS-R speakers, SpecAugment, a fine-tune phase, and optionally your own recordings from the device.
+    - Picks the cutoff from a measured false-wakes-per-hour table (saved as `<name>_cutoffs.txt`).
     - A few clever math tricks to create a professional level model with reduced times on the free Kaggle Tier.
     - It loads its own needed python environment to avoid patching.
     - Run it with Internet ON and T4 settings.
